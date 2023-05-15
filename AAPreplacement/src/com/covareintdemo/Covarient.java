@@ -41,7 +41,8 @@ public class Covarient {
 
 		Car c;
 		Car bmd = new Car();
-		Car oddi = new Car();
+		Car oddi = new Car(); // we are using covarient return type to stay away from type casting
+								// during class hierarchy
 
 		c = bmd.increaseSpeed();
 		c.display();
